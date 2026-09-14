@@ -20,3 +20,9 @@ example: `git remote add origin https://github.com/repo/repo.git`
 Is a conventional Git remote name, but it is not at all special. It's just a name for a URL.
 
 When we clone a Github repo, the default remote name setup for us is called origin. You can change it. Most people leave it.
+
+## Other commands
+They are not commonly used, but there are commands to rename and delate remotes if needed.
+
+- `git remote rename <old> <new>`
+- `git remote remove <name>`
